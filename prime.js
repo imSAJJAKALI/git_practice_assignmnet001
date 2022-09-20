@@ -12,5 +12,6 @@ if(count==2){
    return false;
 }
 }
+
 let print=prime_check(17)
-console.log(print)
+console.log(print);
