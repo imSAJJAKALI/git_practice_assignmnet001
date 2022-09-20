@@ -1,4 +1,5 @@
-let num=13;
+
+function prime_check(num){
 let count=0;
 for(let i=0; i<=num; i++){
   if(num%i==0){
@@ -6,8 +7,10 @@ for(let i=0; i<=num; i++){
   }
 }
 if(count==2){
-   console.log("prime")
+   return true;
    }else{
-   console.log("not prime")
+   return false;
 }
-
+}
+let print=prime_check(17)
+console.log(print)
